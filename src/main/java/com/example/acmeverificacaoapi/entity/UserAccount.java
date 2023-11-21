@@ -11,10 +11,11 @@ import java.sql.Timestamp;
 @Setter
 public class UserAccount {
 
-    public Integer age;
     public String display_name;
     public String email;
     public String phone_number;
-    public String role;
+    public String register_number;
+    public int role_id;
+    public int team_id;
     public String uid;
 }
