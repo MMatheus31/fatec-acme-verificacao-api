@@ -9,7 +9,7 @@ import java.sql.Timestamp;
 @Setter
 public class UserRequest {
 
-    public String data_request;
+    public String date_request;
     public String id_user;
     public int request_approver_primary;
     public int request_approver_secondary;
